@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Life Pro — étude métier interactive</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/intro"><span class="brand-mark">C</span><span>CORUM <small>STUDY ROOM</small></span></a>
+    <div class="topbar-meta"><span class="eyebrow">ÉTUDE MÉTIER + SYSTÈMES</span><span class="date">06 OCT. 2026</span></div>
+    <button class="outline-btn" id="allPages">Afficher les pages</button>
+  </header>
+  <main id="app" class="app-shell">
+    <section class="hero">
+      <div class="kicker">ÉTUDE INTERACTIVE · CONTENU AUTONOME</div>
+      <h1>Comprendre CORUM.<br>Comprendre Life Pro.</h1>
+      <p>Le dossier autonome se charge dans cette page. Il contient les synthèses métier, les flux et le contenu Life Pro nécessaire pour travailler hors connexion.</p>
+      <div class="chips"><span class="chip">SCPI</span><span class="chip">Assurance-vie</span><span class="chip">Life Pro</span><span class="chip">Middle-Office</span></div>
+    </section>
+    <div class="card">
+      <h2>Contenu intégré</h2>
+      <p>Le site comprend le contexte de l’intégration Life Pro, les rôles des acteurs, le flux CGP → PPS → CRM → CAPPS → Kélia, les services Middle-Office et la cartographie des tickets.</p>
+      <p>Si la navigation interactive ne se charge pas, ce résumé reste visible et le fichier peut être ouvert sans connexion.</p>
+    </div>
+  </main>
+  <footer class="footer"><span>Référentiel autonome · Contenu embarqué dans cette page</span><span id="counter"></span></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
